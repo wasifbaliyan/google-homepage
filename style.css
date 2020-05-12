@@ -1,0 +1,125 @@
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 15px 0 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+header li {
+  float: right;
+}
+
+header li a {
+  display: block;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: small;
+  color: black;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+footer {
+  background-color: #f2f2f2;
+  font-size: small;
+}
+p {
+  padding-left: 17px;
+  padding-top: 10px;
+}
+
+footer li {
+  float: left;
+}
+
+footer li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav {
+  width: 25px;
+  heght: 25px;
+}
+
+.sign-button {
+  border: 1px solid #0277f4;
+  background-color: #0277f4;
+  color: white;
+  width: 70px;
+  height: 30px;
+  margin-top: -5px;
+}
+
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 125px;
+  margin-bottom: 30px;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  height: 40px;
+  border: 1px solid lightgray;
+  box-shadow: -1px 1px 31px -7px rgba(209, 209, 209, 1);
+}
+input:hover {
+  box-shadow: 3px 4px 13px 1px rgba(184, 184, 184, 1);
+}
+main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+main li {
+  float: left;
+}
+
+main li a {
+  display: block;
+  padding-left: 6px;
+  font-size: small;
+  text-decoration: none;
+}
+main {
+  margin-bottom: 95px;
+}
+.buttons {
+  position: relative;
+  left: 520px;
+  margin-bottom: 30px;
+}
+.languages {
+  position: relative;
+  left: 420px;
+}
+main button {
+  background-color: #f2f2f2;
+  border: 0px solid gray;
+  width: 140px;
+  height: 35px;
+  opacity: 0.7;
+}
+main button:hover {
+  opacity: 1;
+  border: 1px solid gray;
+}

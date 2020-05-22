@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   overflow: hidden;
@@ -32,6 +38,7 @@ footer ul {
 footer {
   background-color: #f2f2f2;
   font-size: small;
+  padding: 10px;
 }
 p {
   padding-left: 17px;
@@ -51,7 +58,7 @@ footer li a {
 }
 .nav {
   width: 25px;
-  heght: 25px;
+  height: 25px;
 }
 
 .sign-button {
@@ -78,6 +85,9 @@ input {
   margin-bottom: 30px;
   height: 40px;
   border: 1px solid lightgray;
+  border-radius: 30px;
+  outline: none;
+  padding-left: 10px;
   box-shadow: -1px 1px 31px -7px rgba(209, 209, 209, 1);
 }
 input:hover {
